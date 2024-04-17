@@ -5,7 +5,13 @@
 #必须实现的两个函数，否则会出现错误
 function_load:
   expression: |-
-    print("示例附加包启动成功")
+    print("示例附加包启动成功");
+    init();
 function_unload:
   expression: |-
-    print("示例附加包关闭成功")
+    print("示例附加包关闭成功");
+
+function_init:
+  expression: |-
+    api.import("commands.Whisper")
+    api.import("listener.PlayerJoinListener")

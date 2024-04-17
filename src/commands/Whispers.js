@@ -13,4 +13,4 @@ function onCommand(sender,args) {
     target.sendMessage(sender.getName() + "对你说: "+msg);
     sender.sendMessage("你对 " + sender.getName() + "说:" +msg);
 }
-api.registerCommand("whisper","example.whisper","commands/Whispers.onCommand")
+api.registerCommand("whisper","example.whisper","commands.Whispers#onCommand")

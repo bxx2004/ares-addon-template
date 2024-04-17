@@ -3,4 +3,4 @@ function_onJoin:
   expression: |-
     event.getPlayer().sendMessage("欢迎回到游戏!!!");
 postpone: |-
-  api.registerListener("PlayerJoinEvent","listener/PlayerJoinListener.onJoin");
+  api.registerListener("PlayerJoinEvent","listener.PlayerJoinListener#onJoin");
