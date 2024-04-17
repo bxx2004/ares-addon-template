@@ -1,0 +1,6 @@
+function_onJoin:
+  args: ["event"]
+  expression: |-
+    event.getPlayer().sendMessage("欢迎回到游戏!!!");
+postpone: |-
+  api.registerListener("PlayerJoinEvent","listener/PlayerJoinListener.onJoin");

@@ -1,0 +1,16 @@
+
+
+### 示例附加包配置 ###
+
+
+#id与文件夹名称保持一致
+id: "example"
+name: "Example"
+author: "bxx2004"
+version: "1.0.0"
+#入口文件
+main: "main.yml"
+#使用的脚本语言 ["JavaScript","KetherScript"]
+script_engine: "JavaScript"
+#是否随插件启动
+auto_boot: true
