@@ -13,5 +13,5 @@ function_unload:
 
 function_init:
   expression: |-
-    api.import("commands.Whisper")
-    api.import("listener.PlayerJoinListener")
+    api.import("commands.Whispers");
+    api.import("listener.PlayerJoinListener");
